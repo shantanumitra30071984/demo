@@ -16,6 +16,7 @@ public class TestControllerTest {
     @Autowired
     private MockMvc mockMvc;
 
+
     @Test
     public void testGreet() throws Exception {
         mockMvc.perform(get("/test/greet"))
