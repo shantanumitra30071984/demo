@@ -30,7 +30,7 @@ public class TestControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentType("text/plain;charset=UTF-8"))
                 .andExpect(content().string("Hello World"));
-
+        System.out.println("working");
     }
 }
 
